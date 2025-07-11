@@ -6,7 +6,7 @@ interface AccountCardProps {
   onClick?: () => void;
   selected?: boolean;
 }
-
+// This is some comment
 const AccountCard: React.FC<AccountCardProps> = ({ account, onClick, selected = false }) => {
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('en-US', { 
